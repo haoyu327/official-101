@@ -66,16 +66,16 @@
 
 /* 1.1 General */
 
-@import url('./css/bootstrap.min.css');
+@import url('bootstrap.min.css');
 @import url('https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css');
-@import url('./css/animate.css');
-@import url('./css/hover.css');
-@import url('./css/magnific-popup.css');
-@import url('./css/owl.carousel.css');
-@import url('./css/owl.transitions.css');
-@import url('./css/settings.css');
-@import url('./css/layers.css');
-@import url('./css/navigation.css');
+@import url('animate.css');
+@import url('hover.css');
+@import url('magnific-popup.css');
+@import url('owl.carousel.css');
+@import url('owl.transitions.css');
+@import url('settings.css');
+@import url('layers.css');
+@import url('navigation.css');
 
 html {
   font-size: 75%;
@@ -112,6 +112,22 @@ body {
 ::-moz-selection {
   background-color: #e29521;
   color: #fff;
+}
+
+/* 1.2 Typography */
+
+@font-face {
+  font-family: 'Noto Sans TC', 'montserratlight';
+  src: url('../fonts/montserrat/Montserrat-Light.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Noto Sans TC', 'montserratsemibold';
+  src: url('../fonts/montserrat/Montserrat-SemiBold.ttf');
+  font-weight: normal;
+  font-style: normal;
 }
 
 h1,
@@ -330,7 +346,7 @@ label.error {
   display: inline-block;
   width: 0.94em;
   height: 0.75em;
-  background: url(./img/img-icon/next.png) 0 0 no-repeat;
+  background: url(../img/img-icon/next.png) 0 0 no-repeat;
   background-size: 0.94em 0.75em;
 }
 
@@ -1207,13 +1223,13 @@ label.error {
 }
 
 .arrow-left:before {
-  background: url(./img/img-icon/prev.png) 0 0 no-repeat;
+  background: url(../img/img-icon/prev.png) 0 0 no-repeat;
   background-size: 1.3em 1em;
   margin-right: 0.82em;
 }
 
 .arrow-right:after {
-  background: url(./img/img-icon/next.png) 0 0 no-repeat;
+  background: url(../img/img-icon/next.png) 0 0 no-repeat;
   background-size: 1.3em 1em;
   margin-left: 0.72em;
 }
@@ -1235,7 +1251,7 @@ label.error {
 /* ------------------------------------------------------------------------------- */
 
 .bg-about {
-  background: url(./img/bg/about.jpg) 50% 0 no-repeat;
+  background: url(../img/bg/about.jpg) 50% 0 no-repeat;
   background-size: cover;
 }
 
@@ -1397,7 +1413,7 @@ label.error {
 
 .bg-projects {
   position: relative;
-  background: url(./img/bg/projects.jpg) 50% 0 no-repeat;
+  background: url(../img/bg/projects.jpg) 50% 0 no-repeat;
   background-size: cover;
 }
 
@@ -1512,7 +1528,7 @@ label.error {
   top: 50%;
   width: 2.625em;
   height: 2.625em;
-  background: url(./img/img-icon/zoom.png) 0 0 no-repeat;
+  background: url(../img/img-icon/zoom.png) 0 0 no-repeat;
   background-size: cover;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -1574,7 +1590,7 @@ label.error {
 .owl-prev {
   left: 0.8em;
   padding-left: 35px;
-  background: url(./img/img-icon/prev.png) left 50% no-repeat;
+  background: url(../img/img-icon/prev.png) left 50% no-repeat;
   background-size: 1.3em 1em;
 }
 
@@ -1582,7 +1598,7 @@ label.error {
   left: auto;
   right: 0.8em;
   padding-right: 35px;
-  background: url(./img/img-icon/next.png) right 50% no-repeat;
+  background: url(../img/img-icon/next.png) right 50% no-repeat;
   background-size: 1.3em 1em;
 }
 
@@ -1703,7 +1719,7 @@ img.mfp-img {
 
 .mfp-zoom-out-cur,
 .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
-  cursor: url(./img/zoom-out.cur), zoom-out;
+  cursor: url(../img/zoom-out.cur), zoom-out;
 }
 
 .mfp-removing.mfp-bg {
@@ -1852,7 +1868,7 @@ img.mfp-img {
 /* ------------------------------------------------------------------------------- */
 
 .bg-blog {
-  background: url(./img/bg/blog.jpg) 50% 0 no-repeat;
+  background: url(../img/bg/blog.jpg) 50% 0 no-repeat;
   background-size: cover;
 }
 
@@ -1971,7 +1987,7 @@ img.mfp-img {
 
 .read-more {
   padding-right: 2em;
-  background: url(./img/img-icon/read-more.png) right 50% no-repeat;
+  background: url(../img/img-icon/read-more.png) right 50% no-repeat;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
@@ -2087,7 +2103,7 @@ img.mfp-img {
 /* ------------------------------------------------------------------------------- */
 
 .bg-contacts {
-  background: url(./img/bg/contacts.jpg) 50% 0 no-repeat;
+  background: url(../img/bg/contacts.jpg) 50% 0 no-repeat;
   background-size: cover;
 }
 
@@ -2184,7 +2200,7 @@ img.mfp-img {
 .contact-info {
   color: #fff;
   padding: 0;
-  background: url(./img/bg/contact-details.jpg) 50% no-repeat;
+  background: url(../img/bg/contact-details.jpg) 50% no-repeat;
   background-size: cover;
 }
 
@@ -2261,7 +2277,7 @@ img.mfp-img {
   color: #aaa;
   background-color: #000;
   padding: 80px 0px 40px;
-  background: url(./img/bg/footer.jpg) no-repeat;
+  background: url(../img/bg/footer.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
