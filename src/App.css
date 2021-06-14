@@ -66,16 +66,16 @@
 
 /* 1.1 General */
 
-@import url('./css/bootstrap.min.css');
-@import url('https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css');
-@import url('./css/animate.css');
-@import url('./css/hover.css');
-@import url('./css/magnific-popup.css');
-@import url('./css/owl.carousel.css');
-@import url('./css/owl.transitions.css');
-@import url('./css/settings.css');
-@import url('./css/layers.css');
-@import url('./css/navigation.css');
+@import url("./css/bootstrap.min.css");
+@import url("https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css");
+@import url("./css/animate.css");
+@import url("./css/hover.css");
+@import url("./css/magnific-popup.css");
+@import url("./css/owl.carousel.css");
+@import url("./css/owl.transitions.css");
+@import url("./css/settings.css");
+@import url("./css/layers.css");
+@import url("./css/navigation.css");
 
 html {
   font-size: 75%;
@@ -83,7 +83,7 @@ html {
 }
 
 body {
-  font-family: 'Noto Sans TC', 'montserratlight', sans-serif;
+  font-family: "Noto Sans TC", "montserratlight", sans-serif;
   font-size: 1em;
   line-height: 1.65;
   color: #747474;
@@ -116,7 +116,7 @@ body {
 
 h1,
 .h1 {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 8vmin;
   line-height: 1.2;
@@ -127,7 +127,7 @@ h1,
 
 h2,
 .h2 {
-  font-family: 'Noto Sans TC', 'Oswald', sans-serif;
+  font-family: "Noto Sans TC", "Oswald", sans-serif;
   font-weight: 400;
   font-size: 2.1875em;
   letter-spacing: 0.32em;
@@ -137,7 +137,7 @@ h2,
 
 h3,
 .h3 {
-  font-family: 'montserratsemibold';
+  font-family: "montserratsemibold";
   font-size: 1.875em;
   line-height: 1.1;
   font-weight: normal;
@@ -146,7 +146,7 @@ h3,
 
 h4,
 .h4 {
-  font-family: 'montserratsemibold';
+  font-family: "montserratsemibold";
   font-size: 1.125em;
   line-height: 1.35;
   font-weight: normal;
@@ -183,7 +183,7 @@ p {
 
 b,
 strong {
-  font-family: 'Noto Sans TC', 'Montserrat', sans-serif;
+  font-family: "Noto Sans TC", "Montserrat", sans-serif;
 }
 
 ul {
@@ -274,7 +274,7 @@ label.error {
 /* 1.4 Buttons */
 
 .btn {
-  font-family: 'Noto Sans TC', 'montserratsemibold';
+  font-family: "Noto Sans TC", "montserratsemibold";
   position: relative;
   display: inline-block;
   border: 0.2em solid #efa639;
@@ -384,7 +384,7 @@ label.error {
 }
 
 .sk-folding-cube .sk-cube:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -547,7 +547,7 @@ label.error {
 
 .fade-title-left,
 .fade-title-right {
-  font-family: 'Noto Sans TC', 'Montserrat', sans-serif;
+  font-family: "Noto Sans TC", "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 10.8em;
   line-height: 1;
@@ -614,7 +614,7 @@ label.error {
 
 .brand {
   display: inline-block;
-  font-family: 'Noto Sans TC', 'Montserrat', sans-serif;
+  font-family: "Noto Sans TC", "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 2.5vmin;
   line-height: 1;
@@ -632,7 +632,7 @@ label.error {
   z-index: -1;
   bottom: -0.4em;
   right: -0.37em;
-  font-family: 'Noto Sans TC', 'Montserrat', sans-serif;
+  font-family: "Noto Sans TC", "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 8.75em;
   line-height: 1;
@@ -640,7 +640,7 @@ label.error {
 }
 
 .slide-number {
-  font-family: 'Noto Sans TC', 'Oswald', sans-serif;
+  font-family: "Noto Sans TC", "Oswald", sans-serif;
   margin-top: 8vmin;
 }
 
@@ -667,7 +667,7 @@ label.error {
 }
 
 .header-phone {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 300;
   font-size: 0.81em;
   letter-spacing: 0.32em;
@@ -740,7 +740,7 @@ label.error {
 }
 
 .vertical-panel-title {
-  font-family: 'montserratsemibold';
+  font-family: "montserratsemibold";
   font-size: 10px;
   white-space: nowrap;
   text-transform: uppercase;
@@ -801,7 +801,7 @@ label.error {
 
 .navbar-desctop-menu {
   float: right;
-  font-family: 'Noto Sans TC', 'Oswald', sans-serif;
+  font-family: "Noto Sans TC", "Oswald", sans-serif;
   font-weight: 300;
   font-size: 0.81em;
   letter-spacing: 0.32em;
@@ -836,7 +836,7 @@ label.error {
 .navbar-desctop-menu > li > a {
   font-size: 1rem;
   color: #fff;
-  background-color: transparent;
+  /* background-color: transparent; */
   margin-bottom: 1.5em;
   font-weight: 500;
 }
@@ -962,7 +962,7 @@ label.error {
 }
 
 .navbar-nav-mobile {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 300;
   font-size: 0.9em;
   letter-spacing: 0.32em;
@@ -1057,7 +1057,7 @@ label.error {
 }
 
 .main-inner:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   width: 100%;
@@ -1079,7 +1079,7 @@ label.error {
 }
 
 .main-contacts:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   width: 100%;
@@ -1168,11 +1168,11 @@ label.error {
 
 .arrow-left:after,
 .arrow-right:before {
-  content: '';
+  content: "";
   display: inline-block;
   vertical-align: middle;
   background-color: transparent;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1em;
   line-height: 1;
   letter-spacing: 0.32em;
@@ -1181,16 +1181,16 @@ label.error {
 }
 
 .arrow-left:after {
-  content: 'Prev';
+  content: "Prev";
 }
 
 .arrow-right:before {
-  content: 'Next';
+  content: "Next";
 }
 
 .arrow-left:before,
 .arrow-right:after {
-  content: '';
+  content: "";
   display: inline-block;
   vertical-align: middle;
   width: 1.3em;
@@ -1219,7 +1219,7 @@ label.error {
 }
 
 .slide-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 50px;
   letter-spacing: 0.32em;
   text-transform: uppercase;
@@ -1352,7 +1352,7 @@ label.error {
 }
 
 .object-info:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 100%;
   left: 50%;
@@ -1365,7 +1365,7 @@ label.error {
 
 .object-title {
   font-size: 1em;
-  font-family: 'montserratsemibold';
+  font-family: "montserratsemibold";
   font-weight: normal;
   letter-spacing: 0.16em;
   text-transform: uppercase;
@@ -1376,7 +1376,7 @@ label.error {
 }
 
 .object-content {
-  font-family: 'montserratlight', sans-serif;
+  font-family: "montserratlight", sans-serif;
   font-size: 0.75em;
   line-height: 2.6;
   color: #fff;
@@ -1419,7 +1419,7 @@ label.error {
 }
 
 .project figure:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -1452,7 +1452,7 @@ label.error {
   top: 0;
   left: 0;
   margin: 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: normal;
   font-size: 1.56em;
   line-height: 1.45;
@@ -1469,7 +1469,7 @@ label.error {
   left: 0;
   bottom: 0;
   margin: 0 0 -0.8em;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: normal;
   font-size: 14px;
   color: #fff;
@@ -1506,7 +1506,7 @@ label.error {
 }
 
 .project-zoom:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   top: 50%;
@@ -1553,7 +1553,7 @@ label.error {
 .owl-next {
   position: absolute;
   top: 50%;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1em;
   letter-spacing: 0.32em;
   text-transform: uppercase;
@@ -1713,7 +1713,7 @@ img.mfp-img {
 /* 5.3 Project Details */
 
 .project-title-info {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 2vmin;
   text-transform: uppercase;
@@ -1744,7 +1744,7 @@ img.mfp-img {
 
 .project-details-title {
   position: relative;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 1.9em;
   line-height: 1.5;
@@ -1754,7 +1754,7 @@ img.mfp-img {
 }
 
 .project-details-title:before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -0.35em;
   width: 10em;
@@ -1793,7 +1793,7 @@ img.mfp-img {
 }
 
 .text-parallax-content {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 21.8em;
   line-height: 1;
@@ -1807,7 +1807,7 @@ img.mfp-img {
 .experience-info {
   position: relative;
   top: -0.75em;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1.5625em;
   line-height: 1.45;
   letter-spacing: 0.06em;
@@ -1894,7 +1894,7 @@ img.mfp-img {
 }
 
 .blog-tags {
-  font-family: 'montserratsemibold';
+  font-family: "montserratsemibold";
   margin-top: -0.8em;
 }
 
@@ -1920,7 +1920,7 @@ img.mfp-img {
 }
 
 .blog-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 1.5em;
   line-height: 1.333;
@@ -1942,7 +1942,7 @@ img.mfp-img {
 }
 
 .blog-meta .author a {
-  font-family: 'montserratsemibold';
+  font-family: "montserratsemibold";
   color: #b4b4b4;
 }
 
@@ -1963,7 +1963,7 @@ img.mfp-img {
 
 .read-more {
   display: inline-block;
-  font-family: 'montserratsemibold';
+  font-family: "montserratsemibold";
   font-size: 0.88em;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -2001,7 +2001,7 @@ img.mfp-img {
 }
 
 .post-header h3 {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 2.2em;
   line-height: 1.43;
@@ -2032,7 +2032,7 @@ img.mfp-img {
 }
 
 .widget-title {
-  font-family: 'montserratsemibold';
+  font-family: "montserratsemibold";
   font-weight: normal;
   font-size: 1.3em;
   text-transform: uppercase;
@@ -2066,7 +2066,7 @@ img.mfp-img {
 }
 
 .recent-post-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 1.1em;
   line-height: 1.45;
@@ -2194,7 +2194,7 @@ img.mfp-img {
 }
 
 .contact-info-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 80px;
   letter-spacing: 0.32em;
   text-transform: uppercase;
@@ -2276,7 +2276,7 @@ img.mfp-img {
 }
 
 .author-link {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #d0d0d0;
 }
 
