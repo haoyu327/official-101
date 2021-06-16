@@ -25,9 +25,6 @@ export default class home extends Component {
     // require("https://code.jquery.com/jquery-3.6.0.js")
     // require("../../js/rev-slider/jquery.themepunch.revolution.min.js")
     // require("../../js/interface.js")
-
-    console.log("A")
-    // console.log($("#rev_slider"))
   }
   render() {
     const tag = {
